@@ -12,9 +12,34 @@
     </head>
 
     <body>
+        <div class="uk-slidenav-position" data-uk-slideshow="{animation: 'fold'}">
+            <ul class="uk-slideshow" style="height: 760px;">
+                <li data-slide="img" aria-hidden="true" class="" style="height: 760px;">
+                    <div class="uk-cover-background uk-position-cover" style="background-image: url(&quot;static/images/header_background_1.jpg&quot;);">
+                    </div>
+                    <canvas width="800" height="400" style="width: 100%; height: auto; opacity: 0;"> </canvas>
+                </li>
+                <li data-slide="img" aria-hidden="false" style="height: 760px;" class="uk-active">
+                    <div class="uk-cover-background uk-position-cover" style="background-image: url(&quot;static/images/header_background_1.jpg&quot;);">
+                    </div>
+                    <canvas width="800" height="400" style="width: 100%; height: auto; opacity: 0;"> </canvas>
+                </li>
+                <li data-slide="img" aria-hidden="true" style="height: 760px;">
+                    <div class="uk-cover-background uk-position-cover" style="background-image: url(&quot;static/images/header_background_1.jpg&quot;);"></div>
+                    <canvas width="800" height="400" style="width: 100%; height: auto; opacity: 0;"></canvas>
+                </li>
+            </ul>
+            <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" style="color: rgba(255,255,255,0.4)"></a>
+            <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" style="color: rgba(255,255,255,0.4)"></a>
+            <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                <li data-uk-slideshow-item="0"><a href=""></a></li>
+                <li data-uk-slideshow-item="1"><a href=""></a></li>
+                <li data-uk-slideshow-item="2"><a href=""></a></li>
+            </ul>
+        </div>
+
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
-
             <div class="uk-grid" data-uk-grid-margin="">
                 <div class="uk-width-medium-1-1 uk-row-first">
                 <img class="uk-invisible" src="" width="" height="" alt="">
